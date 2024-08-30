@@ -1,0 +1,34 @@
+@import url(styles.css);
+
+.grid-con-lineas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+
+}
+
+.item:nth-child(14) {
+  background-color: brown;
+  align-content: center;
+  color: white;
+  text-align: center;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+
+
+}
+.item:nth-child(5){
+  background-color: steelblue;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: white;
+
+
+
+}
